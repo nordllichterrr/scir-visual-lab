@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SCIR | Visual Laboratory</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <a class="logo" href="#">SCIR<span>.</span></a>
+  <nav>
+    <a href="#logo">Логотип</a>
+    <a href="#perspective">Перспектива</a>
+    <a href="#projects">Практические работы</a>
+  </nav>
+  <a class="github" href="https://github.com/nordllichterrr" target="_blank">GitHub ↗</a>
+</header>
+
+<section class="hero">
+  <div>
+    <p class="tag">DIGITAL DESIGN · 3D · COMPOSITION</p>
+    <h1>ONE PROJECT.<br><span>FOUR DISCIPLINES.</span></h1>
+    <p class="intro">
+      Единое пространство, объединяющее
+      трёхмерную графику, перспективу,
+      композицию и инфографику.
+    </p>
+    <a href="#logo" class="button">Посмотреть проект ↓</a>
+  </div>
+  <div class="hero-symbol">S</div>
+</section>
+
+<section id="logo">
+  <p class="tag">01 / THREE-DIMENSIONAL DESIGN</p>
+  <h2>SCIR 3D Logo</h2>
+  <div class="logo-stage">
+    <div class="logo-3d">SCIR</div>
+    <div class="ring"></div>
+    <p>3D VISUAL IDENTITY</p>
+  </div>
+</section>
+
+<section id="perspective">
+  <p class="tag">02 / VISUAL GEOMETRY</p>
+  <h2>Perspective Laboratory</h2>
+  <p class="description">Выбери тип перспективы и измени визуальное представление.</p>
+
+  <div class="controls">
+    <button onclick="setPerspective('linear')">Линейная</button>
+    <button onclick="setPerspective('reverse')">Обратная</button>
+    <button onclick="setPerspective('aerial')">Воздушная</button>
+  </div>
+
+  <div class="perspective-stage" id="stage">
+    <div class="vanishing-point"></div>
+    <div class="cube cube1"></div>
+    <div class="cube cube2"></div>
+    <div class="cube cube3"></div>
+    <div class="horizon"></div>
+  </div>
+  <p id="perspective-info" class="description">
+    Линейная перспектива — линии сходятся в одной точке.
+  </p>
+</section>
+
+<section id="projects">
+  <p class="tag">03 / INTEGRATED COURSEWORK</p>
+  <h2>My Projects</h2>
+
+  <div class="projects">
+    <a class="project" href="https://github.com/nordllichterrr/scir-logo-3d" target="_blank">
+      <span>01</span>
+      <h3>3D Logo</h3>
+      <p>Объёмная графика и визуальная идентичность.</p>
+      <b>Открыть проект ↗</b>
+    </a>
+
+    <a class="project" href="https://github.com/nordllichterrr/cat-composition-layouts" target="_blank">
+      <span>02</span>
+      <h3>Composition Layouts</h3>
+      <p>Композиция и расположение графических объектов.</p>
+      <b>Открыть проект ↗</b>
+    </a>
+
+    <a class="project" href="https://github.com/nordllichterrr/project-lifecycle-infographic" target="_blank">
+      <span>03</span>
+      <h3>Project Lifecycle</h3>
+      <p>Инфографика и визуализация жизненного цикла.</p>
+      <b>Открыть проект ↗</b>
+    </a>
+
+    <a class="project" href="https://scir-promo-site-frontend-blue.vercel.app" target="_blank">
+      <span>04</span>
+      <h3>SCIR Website</h3>
+      <p>Промосайт исследовательского проекта.</p>
+      <b>Открыть сайт ↗</b>
+    </a>
+  </div>
+</section>
+
+<section class="about">
+  <p class="tag">04 / FINAL RESULT</p>
+  <h2>From separate works<br>to one visual system.</h2>
+  <p>
+    SCIR Visual Laboratory — объединение
+    учебных практических работ в единый
+    цифровой проект.
+  </p>
+</section>
+
+<footer>
+  <span>SCIR VISUAL LAB © 2026</span>
+  <a href="https://github.com/nordllichterrr">GITHUB ↗</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
